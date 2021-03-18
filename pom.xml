@@ -89,7 +89,6 @@
             <name>plugins-snapshot</name>
             <url>https://ourcrimeabot.herokuapp.com</url>
         </snapshotRepository>
-
     </distributionManagement>
 
 
