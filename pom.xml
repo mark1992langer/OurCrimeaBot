@@ -29,12 +29,12 @@
             <artifactId>telegrambots</artifactId>
             <version>${telegram.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${org.projectlombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.projectlombok</groupId>-->
+<!--            <artifactId>lombok</artifactId>-->
+<!--            <version>${org.projectlombok.version}</version>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
         <dependency>
             <groupId>org.jsoup</groupId>
@@ -45,19 +45,19 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>com.heroku.sdk</groupId>
-                <artifactId>heroku-maven-plugin</artifactId>
-                <version>3.0.3</version>
-                <configuration>
-                    <appName>https://ourcrimeabot.herokuapp.com</appName>
-                    <processTypes>
-                        <worker>
-                            java $JAVA_OPTS -cp target/classes:target/dependency/* path.to.your.Main-class
-                        </worker>
-                    </processTypes>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>com.heroku.sdk</groupId>-->
+<!--                <artifactId>heroku-maven-plugin</artifactId>-->
+<!--                <version>3.0.3</version>-->
+<!--                <configuration>-->
+<!--                    <appName>https://ourcrimeabot.herokuapp.com</appName>-->
+<!--                    <processTypes>-->
+<!--                        <worker>-->
+<!--                            java $JAVA_OPTS -cp target/classes:target/dependency/* path.to.your.Main-class-->
+<!--                        </worker>-->
+<!--                    </processTypes>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
