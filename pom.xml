@@ -6,7 +6,7 @@
 
     <groupId>org.telegam.bot</groupId>
     <artifactId>OurCrimeaBot</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0</version>
     <url>https://github.com/mark1992langer/OurCrimeaBot</url>
 
     <properties>
@@ -82,13 +82,8 @@
         <repository>
             <id>central</id>
             <name>plugins-releases</name>
-            <url>https://ourcrimeabot.herokuapp.com</url>
+            <url>https://github.com/mark1992langer/OurCrimeaBot</url>
         </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>plugins-snapshot</name>
-            <url>https://ourcrimeabot.herokuapp.com</url>
-        </snapshotRepository>
     </distributionManagement>
 
 
